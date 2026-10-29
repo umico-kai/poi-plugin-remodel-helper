@@ -13,9 +13,27 @@
 
 ## 安装
 
+已发布到 npm：[poi-plugin-remodel-helper](https://www.npmjs.com/package/poi-plugin-remodel-helper)
+
+**方式一：poi 插件管理**
+
 ```
-poi → 设置 → 在插件管理里搜索 poi-plugin-remodel-helper → 安装
+poi → 设置 → 插件管理 → 搜索 remodel → 安装
 ```
+
+**方式二：命令行**
+
+```
+cd %APPDATA%\poi\plugins\node_modules
+npm install poi-plugin-remodel-helper
+```
+
+装完重启 poi，左侧栏出现「改造规划」。
+
+**方式三：手动解压**
+
+下载 Releases 里的 zip，解压到 `%APPDATA%\poi\plugins\node_modules\`，重启 poi。
+
 ## 许可
 
 MIT
