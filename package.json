@@ -1,0 +1,34 @@
+{
+  "name": "poi-plugin-remodel-helper",
+  "version": "1.0.0",
+  "description": "检测舰娘改造状态：可改造 / 等级达标但缺材料 / 未达到改造等级",
+  "main": "index.es",
+  "author": "umico",
+  "license": "MIT",
+  "keywords": [
+    "poi-plugin",
+    "kancolle",
+    "remodel",
+    "改造"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umico-kai/poi-plugin-remodel-helper.git"
+  },
+  "homepage": "https://github.com/umico-kai/poi-plugin-remodel-helper#readme",
+  "bugs": {
+    "url": "https://github.com/umico-kai/poi-plugin-remodel-helper/issues"
+  },
+  "files": [
+    "index.es",
+    "lib/",
+    "assets/",
+    "README.md"
+  ],
+  "poiPlugin": {
+    "title": "改造规划",
+    "description": "材料查漏补缺",
+    "icon": "fa/file-contract",
+    "priority": 20
+  }
+}
