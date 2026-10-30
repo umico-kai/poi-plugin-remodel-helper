@@ -1,7 +1,7 @@
 {
   "name": "poi-plugin-remodel-helper",
-  "version": "1.0.0",
-  "description": "检测舰娘改造状态：可改造 / 等级达标但缺材料 / 未达到改造等级",
+  "version": "1.2.0",
+  "description": "检测舰娘改造状态：可改造 / 缺材料 / 等级不足，按整条改造链统计材料，材料总览一览持有与需求",
   "main": "index.es",
   "author": "umico",
   "license": "MIT",

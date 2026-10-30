@@ -34,10 +34,31 @@ export const REMODEL_STATE = {
   LOW_LEVEL: 'LOW_LEVEL',   // 未达到改造等级
 }
 
+// 资源数组下标（poi 的 state.info.resources 顺序）
+// [油, 弹, 钢, 铝, 喷火, 桶, 开发, 螺丝]
+export const RES_INDEX = {
+  FLAME: 4,  // 高速建造材
+  DEVMAT: 6, // 開発資材
+}
+
+// 徽章文案（按 poi 界面语言切换）
+// 中文显示直白含义；日文界面保留原梗；其它语言给英文
 export const REMODEL_LABEL = {
   READY: 'いっていいよ',
   LACK_MATERIAL: 'いっていい……ってさ',
   LOW_LEVEL: '待ってろいよ',
+}
+
+export const REMODEL_LABEL_ZH = {
+  READY: '可改造',
+  LACK_MATERIAL: '缺材料',
+  LOW_LEVEL: '等级不足',
+}
+
+export const REMODEL_LABEL_EN = {
+  READY: 'Ready',
+  LACK_MATERIAL: 'Need items',
+  LOW_LEVEL: 'Low level',
 }
 
 export const REMODEL_COLOR = {
